@@ -5,10 +5,7 @@ if (document.readyState == "loading") {
 }
 function ready() {
   document.getElementById("homepage").addEventListener("click", function () {
-    window.open(
-      "file:///C:/Users/hp/Desktop/HOMEPROJECT/indexpage.html",
-      "_blank"
-    );
+    window.open("file:///C:/Users/hp/Desktop/HOMEPROJECT/index.html", "_blank");
   });
 
   document.getElementById("catalogue").addEventListener("click", function () {
