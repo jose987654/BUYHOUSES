@@ -5,33 +5,33 @@ if (document.readyState == "loading") {
 }
 function ready() {
   document.getElementById("homepage").addEventListener("click", function () {
-    window.open("file:///C:/Users/hp/Desktop/HOMEPROJECT/index.html", "_blank");
+    window.open("https://jose987654.github.io/BUYHOUSES/index.html", "_blank");
   });
 
   document.getElementById("catalogue").addEventListener("click", function () {
     window.open(
-      "file:///C:/Users/hp/Desktop/HOMEPROJECT/Catalogue.html",
+      "https://jose987654.github.io/BUYHOUSES/Catalogue.html",
       "_blank"
     );
   });
 
   document.getElementById("signup").addEventListener("click", function () {
     window.open(
-      "file:///C:/Users/hp/Desktop/HOMEPROJECT/SignUPpage.html",
+      "https://jose987654.github.io/BUYHOUSES/SignUPpage.html",
       "_blank"
     );
   });
 
   document.getElementById("signup").addEventListener("click", function () {
     window.open(
-      "file:///C:/Users/hp/Desktop/HOMEPROJECT/SignUPpage.html",
+      "https://jose987654.github.io/BUYHOUSES/SignUPpage.html",
       "_blank"
     );
   });
 
   document.getElementById("about").addEventListener("click", function () {
     window.open(
-      "file:///C:/Users/hp/Desktop/HOMEPROJECT/AboutUS.html",
+      "https://jose987654.github.io/BUYHOUSES/AboutUS.html",
       "_blank"
     );
   });

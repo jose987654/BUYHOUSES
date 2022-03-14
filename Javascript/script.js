@@ -18,13 +18,13 @@ const signUp = (e) => {
     document.getElementById("email").focus();
     alert("Account Created.\n\nPlease Proceed using the link below.");
     window.open(
-      "file:///C:/Users/hp/Desktop/HOMEPROJECT/AboutUS.html",
+      "https://jose987654.github.io/BUYHOUSES/AboutUS.html",
       "_blank"
     );
   } else {
     alert("Ooopppssss... Duplicate found!!!\nYou have already signed up");
     window.open(
-      "file:///C:/Users/hp/Desktop/HOMEPROJECT/AboutUS.html",
+      "https://jose987654.github.io/BUYHOUSES/AboutUS.html",
       "_blank"
     );
   }

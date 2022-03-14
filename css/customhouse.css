@@ -1,33 +1,32 @@
-body{
+body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../Images/home2pic1.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-padding: 150px;
-
+  padding: 50px;
 }
 
-h1{
-  text-align:center;
+h1 {
+  text-align: center;
   color: rgb(247, 245, 245);
   font-size: 5em;
-  font-family:  serif;
-  font-weight:bold;
+  font-family: serif;
+  font-weight: bold;
 }
-h2{
-  text-align:center;
+h2 {
+  text-align: center;
   color: rgb(255, 254, 254);
   font-size: 1em;
-  font-weight:bold;
-  font-family:  serif;
+  font-weight: bold;
+  font-family: serif;
 }
-h3{
-  text-align:center;
+h3 {
+  text-align: center;
   color: rgb(255, 254, 254);
   font-size: 15px;
-  font-family:  serif;
+  font-family: serif;
 }
 
 .topnav {
@@ -57,125 +56,119 @@ h3{
   color: white;
 }
 
-.category{
- display: flex;
- flex-direction: row;
- color: white;
+.category {
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
 
 .category__imagename {
   /* height: 25%; */
   width: 70%;
   border-radius: 6px;
-  margin:8px;
+  margin: 8px;
 }
 .customsize {
   max-height: 2000px;
   max-width: 2000px;
-  
 }
 
-
-.category__imagename1{
+.category__imagename1 {
   padding: 1px;
   margin: 1px;
-  font-size:20px;
-  font-weight:bold;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
-  
 }
-.category__imagename98{
-    padding: 1px;
-    margin: 1px;
-    font-size:12px;
-    font-weight:bold;
-    text-align: center;
-    
-  }
+.category__imagename98 {
+  padding: 1px;
+  margin: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
 
-.category__imagename11{
+.category__imagename11 {
   width: 65%;
   border-radius: 6px;
-  margin:8px;
+  margin: 8px;
 }
-.category__imagename33{
+.category__imagename33 {
   /* height: 25%; */
   width: 65%;
   border-radius: 6px;
-  margin:8px;
+  margin: 8px;
 }
 
-.category__imagename12{
+.category__imagename12 {
   font-weight: lighter;
-  
 }
 .center {
-  
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  
 }
-.middle{margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    vertical-align:middle;
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  vertical-align: middle;
 }
-.center:hover{transition: all 2.0s ease;
-  vertical-align:middle;
-    position: relative;
-    transform: scale(1.0);
-    -webkit-transform: scale(1.5);
-
+.center:hover {
+  transition: all 2s ease;
+  vertical-align: middle;
+  position: relative;
+  transform: scale(1);
+  -webkit-transform: scale(1.5);
 }
 .button {
-    background-color: white; /* Green */
-    border: 2px solid #4CAF50;
-  color:black;
+  background-color: white; /* Green */
+  border: 2px solid #4caf50;
+  color: black;
   border-radius: 2px;
-    text-align: center;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   padding: 10px 24px;
-    transition-duration: 0.4s;
+  transition-duration: 0.4s;
 
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  }
-  
-  .button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
-  }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-.container{
+.container {
   border-radius: 10px;
-    display: flex;
+  display: flex;
   justify-content: space-around;
   color: rgb(0255, 255, 255);
 }
-.text{
-  font-weight:bold;
+.text {
+  font-weight: bold;
   text-align: center;
   color: rgb(0255, 255, 255);
 }
 
-.exp{
+.exp {
   /* text-align: justify !important; */
 }
 
-.text2{
-  font-weight:bold;
+.text2 {
+  font-weight: bold;
   font-size: 3em;
-    
-    overflow: hidden;
+
+  overflow: hidden;
 }
-h6{
-  text-align:center;
+h6 {
+  text-align: center;
   color: rgb(255, 254, 254);
-  
+
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
