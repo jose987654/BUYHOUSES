@@ -5,35 +5,32 @@ if (document.readyState == "loading") {
 }
 function ready() {
   document.getElementById("homepage").addEventListener("click", function () {
-    window.open("https://jose987654.github.io/BUYHOUSES/index.html", "_blank");
+    window.open("https://jose987654.github.io/BUYHOUSES/index.html", "_self");
   });
 
   document.getElementById("catalogue").addEventListener("click", function () {
     window.open(
       "https://jose987654.github.io/BUYHOUSES/Catalogue.html",
-      "_blank"
+      "_self"
     );
   });
 
   document.getElementById("signup").addEventListener("click", function () {
     window.open(
       "https://jose987654.github.io/BUYHOUSES/SignUPpage.html",
-      "_blank"
+      "_self"
     );
   });
 
   document.getElementById("signup").addEventListener("click", function () {
     window.open(
       "https://jose987654.github.io/BUYHOUSES/SignUPpage.html",
-      "_blank"
+      "_self"
     );
   });
 
   document.getElementById("about").addEventListener("click", function () {
-    window.open(
-      "https://jose987654.github.io/BUYHOUSES/AboutUS.html",
-      "_blank"
-    );
+    window.open("https://jose987654.github.io/BUYHOUSES/AboutUS.html", "_self");
   });
 }
 

@@ -17,16 +17,10 @@ const signUp = (e) => {
     document.querySelector("form").reset();
     document.getElementById("email").focus();
     alert("Account Created.\n\nPlease Proceed using the link below.");
-    window.open(
-      "https://jose987654.github.io/BUYHOUSES/AboutUS.html",
-      "_blank"
-    );
+    window.open("https://jose987654.github.io/BUYHOUSES/AboutUS.html", "_self");
   } else {
     alert("Ooopppssss... Duplicate found!!!\nYou have already signed up");
-    window.open(
-      "https://jose987654.github.io/BUYHOUSES/AboutUS.html",
-      "_blank"
-    );
+    window.open("https://jose987654.github.io/BUYHOUSES/AboutUS.html", "_self");
   }
   e.preventDefault();
 };
