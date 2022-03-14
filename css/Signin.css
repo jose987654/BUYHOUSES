@@ -31,6 +31,9 @@ button {
   border: solid 1px dodgerblue;
   cursor: pointer;
 }
+button:hover {
+  background-color: rgb(59, 54, 54);
+}
 h1 {
   /* border: 5px; */
   text-align: center;
