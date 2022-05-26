@@ -38,7 +38,7 @@ const signIn = (e) => {
 
 
   $(document).ready(function() {
-    var test = ["text1", "text2", "text3"];
-    $('#here').html(test.join("<br>"));
+    var KIIRA ESTATE = ["text1", "text2", "text3"];
+    $('#here').html(KIIRA ESTATE.join("<br>"));
 }); 
  
